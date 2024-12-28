@@ -1,0 +1,56 @@
+body{
+    background: url("397457-wallpaper-cyberpunk-asus-zephyrus-4k-hd.jpg") center ;
+    background-size: auto;
+}
+.wrapper{
+    backdrop-filter: blur(0.8rem);
+    box-shadow: 10px 10px 30px 5px rgba(228, 36, 189, 0.4);
+    background-color: rgba(82, 82, 255, 0.71);
+    border-radius: 20px;
+    border: 5px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Georgia" , "Courier New", sans-serif;
+    color: #211f3b;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 400px;
+    margin: 10% auto;
+    padding: 10px ;
+}
+.calculate{
+    font-size: 1.5rem;
+}
+.check{
+    color: wheat;
+    background-color: rgba(249, 60, 246, 0.34);
+    padding: 16px 40px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.check:hover, .input:hover{
+    transition: .3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.check:active, .input:active{
+    transition: .3s;
+    transform: scale(0.9);
+}
+.input{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .3s;
+}
+@media only screen and (max-width: 575.98px) {
+    .wrapper {
+        margin: 30% auto;
+        width: 80vw;
+    }
+    .wrapper h1 {
+        font-size: 1.7rem;
+    }
+}
